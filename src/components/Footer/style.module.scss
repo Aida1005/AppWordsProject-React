@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    background-color: rgba(47, 89, 255, 0.5);
+}
+
+.footer_menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 40px;
+    grid-area: 30px;
+}
+
+.footer_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: rgb(114, 245, 225);
+    margin-left: 50px;
+    border: none;
+    border-radius: 12px;
+    width: 300px;
+    height: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.button:hover{
+    color: rgba(255, 247, 0, 0.877);
+}
+
+.button::after{
+    color: black;
+}

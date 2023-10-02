@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+}
+
+th {
+    background-color: rgba(136, 208, 250, 0.5);
+}
+
+td {
+    background-color: rgba(205, 235, 253, 0.5);
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+}
+
+.form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form * {
+    font-size: 28px;
+} 
+
+.input{
+    border-radius: 8px;
+    border: 1px solid rgb(128, 128, 128);
+    width: 100%;
+}

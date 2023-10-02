@@ -1,0 +1,38 @@
+.header {
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+height: 200px;
+/*border-bottom: 2px solid rgb(202, 199, 199);*/
+
+.header_logo{
+margin-left: 65px;
+width: 200px;
+height: 200px; 
+}
+
+.header_nav {
+width: 1400px;
+
+.header_nav_list {
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding: 0;
+
+.header_nav_list_item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: black;
+text-decoration: none;
+}
+
+.header_nav_list_item:hover {
+color: rgb(249, 167, 231);
+            }
+        }
+    }
+}

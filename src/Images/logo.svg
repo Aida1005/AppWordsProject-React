@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<g id="BACKGROUND">
+	<rect style="fill:#FFFFFF;" width="500" height="500"/>
+</g>
+<g id="OBJECTS">
+	<g>
+		<path style="fill:#002B75;" d="M297.146,107.906h-72.888l-20.43-24.888c-2.203-2.684-6.556-1.126-6.556,2.346v22.542h-9.592
+			c-6.626,0-11.997,5.371-11.997,11.997v107.352c0,6.628,5.373,12.001,12.001,12.001h109.464c6.626,0,11.997-5.371,11.997-11.997
+			V119.904C309.143,113.278,303.772,107.906,297.146,107.906z"/>
+		<polygon style="fill:#FF0000;" points="230.895,274.567 220.387,267.099 209.88,274.567 209.88,232.786 230.895,232.786 		"/>
+		<g>
+			<path style="fill:#0047A6;" d="M312.318,123.082H202.857c-6.628,0-12.001,5.373-12.001,12.001v107.352
+				c0,6.626,5.371,11.997,11.998,11.997h72.888l20.431,24.888c2.203,2.684,6.556,1.126,6.556-2.346v-22.542h9.592
+				c6.626,0,11.997-5.371,11.997-11.997V135.082C324.319,128.455,318.946,123.082,312.318,123.082z"/>
+			<g>
+				<circle style="fill:#002B75;" cx="223.149" cy="188.757" r="9.694"/>
+				<circle style="fill:#FFFFFF;" cx="257.588" cy="188.757" r="9.694"/>
+				<circle style="fill:#FF0000;" cx="292.027" cy="188.757" r="9.694"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="TEXTS">
+	
+		<text transform="matrix(1 0 0 1 112.2122 366.6642)" style="fill:#002B75; font-family:'Barlow-Black'; font-size:65px; letter-spacing:3;">English</text>
+	
+		<text transform="matrix(1 0 0 1 146.3064 396.4955)" style="fill:#FF0000; font-family:'Barlow-Medium'; font-size:19px; letter-spacing:3;">LANGUAGE CENTER</text>
+	<g>
+		
+			<line style="fill:none;stroke:#FF0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="135.796" y1="389.908" x2="79.874" y2="389.908"/>
+		
+			<line style="fill:none;stroke:#FF0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="420.126" y1="389.908" x2="364.204" y2="389.908"/>
+	</g>
+</g>
+</svg>

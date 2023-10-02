@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    //border: 2px solid purple;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    border: 1px solid gray;
+    background-color: rgb(232, 221, 208);
+    border-radius: 15px;
+}
+
+.card_button{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
