@@ -1,17 +1,17 @@
 //import React, { useEffect } from "react";
 import st from './style.module.scss';
-//import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 
 
 export default function Cards (props) {
     //console.log(props);
     const {id, english, transcription, russian, translation, showTranslation} = props;
-    //const buttonRef = useRef ();
+    const buttonRef = useRef ();
 
-    /*useEffect(() => {
+    useEffect(() => {
         buttonRef.current.focus();
-    }, []);*/
+    }, []);
 
     return(
         <div className={st.card}>

@@ -8,7 +8,7 @@ import Card from "../Card/Card";
 export default function Slider() {
     const [translation, setTranslation] = useState (false);//состояние для отслеживания кнопки "Показать перевод"
     const [count, setCount] = useState(0);//
-    const [words, setWords] = useState ([false]);//сохраняем массив данных
+    const [words, setWords] = useState (false);//сохраняем массив данных
     const [leartCards, setLearntCards] = useState(0);//
 
 
@@ -35,24 +35,27 @@ export default function Slider() {
     }
 
     function handleClickPrev (){
-        let copyCount = count
-        copyCount === 0 ? setCount(data.length --) : setCount(copyCount --)
+        //let copyCount = count
+        //copyCount === 0 ? setCount(data.length --) : setCount(copyCount --)
+        //setTranslation (false)
+        setCount(prevCount => - 1)
         setTranslation (false)
     }
 
     function handleClickNext (){
-        let copyCount = count
-        copyCount === data.length-- ? setCount(0) : setCount(copyCount ++)
+        //let copyCount = count
+        //copyCount === data.length-- ? setCount(0) : setCount(copyCount ++)
+        setCount(prevCount => + 1)
         setTranslation (false)
+
     }
 
 
     return (
         <div>
             <div className={st.slider}>
-                <button className={st.card__btn} onClick={handleClickPrev}>Prev</button>
+                <button className={st.card__btn} onClick={handleClickPrev}>Previous</button>
                 <Card className={st.card}
-                
                 english={obj.english}
                 transcription={obj.transcription}
                 russian={obj.russian}
@@ -63,7 +66,7 @@ export default function Slider() {
                 />
                 <button className={st.card__btn} onClick={handleClickNext}>Next</button>
             </div>
-                    <div className={st.card_number}>Number of Cards leart: {leartCards}</div>
+                    <div className={st.card_number}>Number of cards leart: {leartCards}</div>
         </div>           
     )
 }
