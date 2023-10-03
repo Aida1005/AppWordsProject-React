@@ -17,9 +17,8 @@ export default function Slider() {
             setWords (data);
         }, [])
 
-    const obj = words[count];
+        const obj = words[count];
 
-    //Создание функции для 
         function handleClickCard (){
             setLearntCards(leartCards + 1)
 }  
@@ -34,22 +33,16 @@ export default function Slider() {
         return <h1>Loading...</h1>
     }
 
-    function handleClickPrev (){
-        //let copyCount = count
-        //copyCount === 0 ? setCount(data.length --) : setCount(copyCount --)
-        //setTranslation (false)
-        setCount(prevCount => - 1)
-        setTranslation (false)
-    }
+    function handleClickPrev() {
+        setCount((prevCount) => (prevCount === 0 ? data.length - 1 : prevCount - 1));
+        setTranslation(false);
+      }
 
-    function handleClickNext (){
-        //let copyCount = count
-        //copyCount === data.length-- ? setCount(0) : setCount(copyCount ++)
-        setCount(prevCount => + 1)
-        setTranslation (false)
 
-    }
-
+    function handleClickNext() {
+        setCount((prevCount) => (prevCount === data.length - 1 ? 0 : prevCount + 1));
+        setTranslation(false);
+      }
 
     return (
         <div>

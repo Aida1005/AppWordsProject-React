@@ -1,7 +1,5 @@
-//import React, { useEffect } from "react";
 import st from './style.module.scss';
 import { useEffect, useRef } from 'react';
-
 
 
 export default function Cards (props) {
@@ -19,7 +17,7 @@ export default function Cards (props) {
             <h1 className={st.card_english}>{english}</h1>
             <p className={st.card_transcription}>{transcription}</p>
             {
-                translation === false ? <button onClick={showTranslation} className={st.card_button}  >Flip
+                translation === false ? <button onClick={showTranslation}  ref ={buttonRef} className={st.card_button}  >Flip
                 </button> : <p className={st.card_russian}>{russian}</p>
                 }
         </div>
