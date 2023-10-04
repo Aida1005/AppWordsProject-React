@@ -2,6 +2,7 @@ import Slider from "../Slider/Slider";
 import Table from "../Table/Table";
 import st from "./style.module.scss";
 import image from "../../Images/video-calling.png";
+import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <h1>The easy, fun and effective way to learn English!</h1>
       <Slider></Slider>
       <Table></Table>
+      <NotFoundPage></NotFoundPage>
     </div>
   )
 }
